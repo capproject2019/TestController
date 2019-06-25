@@ -14,6 +14,6 @@ public class HomeController {
 
 	@RequestMapping(value = "/getAccount", method = RequestMethod.POST)
 	public ResponseEntity<?> GetAccountInformation(@RequestBody AccountRequest accountRequest) {
-		return ResponseEntity.ok(new AccountResponse("successful"));
+		return ResponseEntity.ok(new AccountResponse("successful!"));
 	}
 }
